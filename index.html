@@ -6,62 +6,133 @@
 <title>செம்மொழி தோழர்</title>
 
 <style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
 body{
-margin:0;
 font-family:Arial,sans-serif;
 background:#111;
 color:white;
-text-align:center;
 }
+
 header{
 background:#8B0000;
-padding:30px;
+padding:60px 20px;
+text-align:center;
 }
-h1{
-font-size:40px;
+
+header h1{
+font-size:42px;
 }
-p{
+
+header p{
+margin-top:15px;
 font-size:20px;
-padding:20px;
 }
-.btn{
+
+nav{
+background:black;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-size:18px;
+font-weight:bold;
+}
+
+section{
+padding:40px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.card{
+background:#1b1b1b;
+padding:25px;
+border-radius:15px;
+margin-bottom:25px;
+}
+
+.card h2{
+color:#FFD700;
+margin-bottom:15px;
+}
+
+.button{
+display:inline-block;
+margin-top:20px;
 background:#FFD700;
 color:black;
 padding:15px 30px;
-text-decoration:none;
 border-radius:10px;
+text-decoration:none;
 font-weight:bold;
 }
+
 footer{
-margin-top:50px;
-padding:20px;
-background:#222;
+background:#000;
+text-align:center;
+padding:25px;
+margin-top:40px;
 }
 </style>
+
 </head>
 
 <body>
 
 <header>
-<h1>விழித்தெழு தமிழா</h1>
-<h2>நமக்கு நடக்கும் அநீதிகள்</h2>
+<h1>செம்மொழி தோழர்</h1>
+<p>தமிழர் வரலாறு • கல்வெட்டுகள் • பாண்டியர் • ஆய்வுகள்</p>
 </header>
 
+<nav>
+<a href="#">முகப்பு</a>
+<a href="#">வரலாறு</a>
+<a href="#">கல்வெட்டுகள்</a>
+<a href="#">புத்தகங்கள்</a>
+<a href="#">தொடர்பு</a>
+</nav>
+
+<section>
+
+<div class="card">
+<h2>வரவேற்கிறோம்</h2>
 <p>
-தமிழர் வரலாறு, கல்வெட்டுகள், பண்பாடு மற்றும்
-ஆய்வுகளுக்கான இணையதளம்.
+தமிழர் வரலாறு, கல்வெட்டுகள், மீமிசல், பாண்டியர் மற்றும்
+தமிழர் நாகரிகம் தொடர்பான தகவல்களை இந்த இணையதளத்தில்
+பகிர்கிறோம்.
 </p>
+</div>
 
-<h3>ஆசிரியர்</h3>
-
+<div class="card">
+<h2>ஆசிரியர்</h2>
 <p>
 மு. சதீஸ் பாண்டி (மீமிசல்)
 </p>
+</div>
 
-<a class="btn" href="#">புத்தகம் விரைவில்...</a>
+<div class="card">
+<h2>புத்தகங்கள்</h2>
+<p>
+விரைவில் தமிழர் வரலாற்று நூல்கள் PDF வடிவில் வெளியிடப்படும்.
+</p>
+
+<a class="button" href="#">
+விரைவில்...
+</a>
+
+</div>
+
+</section>
 
 <footer>
-© 2026 Mu. Sathees Pandi
+
+© 2026 Mu. Sathees Pandi | செம்மொழி தோழர்
+
 </footer>
 
 </body>
